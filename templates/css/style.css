@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+<style>
+div.relative { position: relative; width: 400px; height: 200px; border: 3px background-color: #73AD21;}
+div.absolute { position: absolute; top: 80px; right: 0; width: 200px; height: 100px; border: 3px solid #73AD21;}
+</style>
+<div class="relative"></div>
+
+
+
+<style>
+.box-circle {
+background: #456BD9;
+border: 0.1875em solid #0F1C3F;
+border-radius: 50px;
+box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+height: 5em;
+width: 100%;
+}
+</style>
+<div class="box-circle" >
+</div>
